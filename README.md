@@ -1,32 +1,33 @@
-📉 Netflix Customer Churn Analysis (Power BI Project)
-This project analyzes a fictional Netflix-style customer dataset to uncover patterns related to customer churn, viewing behavior, payment preferences, and revenue by subscription type. The goal is to understand why users leave the platform and identify trends across demographics.
+# Netflix Customer Churn Dashboard 🎬
 
-📊 Key Insights from the Dashboard:
-Total Customers: 5000
+This Power BI dashboard analyzes customer churn patterns using a sample Netflix subscription dataset. It focuses on identifying trends that lead to user attrition and how engagement metrics influence retention.
 
-Total Revenue: ₹68K
+## 📌 Objectives
+- Determine churn rate and retention by customer segment.
+- Visualize active vs churned customers.
+- Identify key reasons for churn using filters like country, subscription type, watch time, and monthly charges.
 
-Average Watch Time/Day: 4K minutes
+## 🛠 Tools Used
+- Power BI
+- CSV dataset
 
-Churn Rate: ~50% (2,515 churned vs 2,485 active)
+## 📊 Key Visuals
+- KPIs (Active Customers, Churn Rate)
+- Subscription Type vs Churn
+- Country-wise Customer Distribution
+- Average Watch Time Analysis
+- Plan Charges vs Churn
 
-🔍 Visualized Metrics:
-Revenue by Subscription Type: Premium, Standard, and Basic
+## 📈 Insights
+- Basic plan users showed higher churn rates.
+- Countries with lower average watch time had more churn.
+- Customers with higher monthly charges tended to stay longer.
 
-Churned vs Active Customers
+## 📁 Files Included
+- `Netflix_Customer__churn_datasets.pbix` – Power BI file
+- `netflix_customer_churn.csv` – Dataset
 
-Watch Time by Age Group
+## 🔗 Dataset Source
+- Sample Netflix churn dataset from Kaggle (or mock data)
 
-Subscription Type by Gender
-
-Payment Method Preferences: Debit Card, Credit Card, PayPal, Crypto, Gift Card
-
-Most Used Devices: Tablet, Laptop, Mobile, TV, Desktop
-
-🛠 Tools Used:
-Power BI (for dashboard creation)
-
-Excel (for data preprocessing)
-
-📁 Dataset Overview:
-The dataset includes customer demographics, subscription details, payment methods, preferred devices, favorite genres, and watch time metrics.
+---
